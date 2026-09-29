@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 350" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <!-- Accent Gradients -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="50%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Base Background -->
+  <rect width="1200" height="350" fill="url(#bgGrad)" rx="16" />
+
+  <!-- Animated Dynamic Background Elements (Pulse Nodes & Connections) -->
+  <g opacity="0.25">
+    <line x1="150" y1="280" x2="300" y2="240" stroke="#06b6d4" stroke-width="2" stroke-dasharray="6 6">
+      <animate attributeName="stroke-dashoffset" values="12;0" dur="3s" repeatCount="indefinite" />
+    </line>
+    <line x1="300" y1="240" x2="450" y2="290" stroke="#3b82f6" stroke-width="2" stroke-dasharray="6 6">
+      <animate attributeName="stroke-dashoffset" values="0;12" dur="4s" repeatCount="indefinite" />
+    </line>
+    <line x1="750" y1="290" x2="900" y2="230" stroke="#8b5cf6" stroke-width="2" stroke-dasharray="6 6">
+      <animate attributeName="stroke-dashoffset" values="12;0" dur="3.5s" repeatCount="indefinite" />
+    </line>
+    <line x1="900" y1="230" x2="1050" y2="270" stroke="#06b6d4" stroke-width="2" stroke-dasharray="6 6">
+      <animate attributeName="stroke-dashoffset" values="0;12" dur="2.5s" repeatCount="indefinite" />
+    </line>
+
+    <!-- Dynamic Glowing Pulse Circles -->
+    <circle cx="150" cy="280" r="6" fill="#06b6d4" filter="url(#glow)">
+      <animate attributeName="r" values="4;8;4" dur="3s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="300" cy="240" r="8" fill="#3b82f6" filter="url(#glow)">
+      <animate attributeName="r" values="6;10;6" dur="2.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="450" cy="290" r="5" fill="#8b5cf6" filter="url(#glow)">
+      <animate attributeName="r" values="3;7;3" dur="4s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="750" cy="290" r="7" fill="#06b6d4" filter="url(#glow)">
+      <animate attributeName="r" values="5;9;5" dur="3.2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="900" cy="230" r="9" fill="#8b5cf6" filter="url(#glow)">
+      <animate attributeName="r" values="6;11;6" dur="2.8s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1050" cy="270" r="6" fill="#3b82f6" filter="url(#glow)">
+      <animate attributeName="r" values="4;8;4" dur="3.7s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- Bottom Dynamic Wave -->
+  <path d="M 0 300 Q 300 260 600 300 T 1200 280 L 1200 350 L 0 350 Z" fill="url(#cardGrad)" stroke="url(#accentGrad)" stroke-width="1.5" opacity="0.4">
+    <animate attributeName="d" values="M 0 300 Q 300 260 600 300 T 1200 280 L 1200 350 L 0 350 Z; M 0 290 Q 300 320 600 280 T 1200 300 L 1200 350 L 0 350 Z; M 0 300 Q 300 260 600 300 T 1200 280 L 1200 350 L 0 350 Z" dur="10s" repeatCount="indefinite" />
+  </path>
+
+  <!-- Top Accent Bar -->
+  <rect x="0" y="0" width="1200" height="6" fill="url(#accentGrad)" />
+
+  <!-- FOREGROUND TEXT & TITLES (Ensured completely clear and visible above all effects) -->
+  <g text-anchor="middle">
+    <!-- Icon / Symbol -->
+    <g transform="translate(600, 75)">
+      <circle cx="0" cy="0" r="32" fill="#1e293b" stroke="url(#accentGrad)" stroke-width="3" filter="url(#glow)" />
+      <!-- Heart Pulse Icon -->
+      <path d="M-12 -2 C-12 -10, -4 -12, 0 -4 C4 -12, 12 -10, 12 -2 C12 6, 0 14, 0 14 C0 14, -12 6, -12 -2 Z" fill="none" stroke="#06b6d4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M-8 2 L-3 2 L-1 -3 L2 7 L5 -1 L8 2 L11 2" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+
+    <!-- Main Title -->
+    <text x="600" y="165" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="800" font-size="40" fill="#ffffff" letter-spacing="1">
+      Awesome Care Navigation Platform
+    </text>
+
+    <!-- Subtitle -->
+    <text x="600" y="208" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="400" font-size="18" fill="#94a3b8" letter-spacing="0.5">
+      Curated Ecosystem of Care Coordination, Benefits Navigation &amp; Open FHIR Solutions
+    </text>
+
+    <!-- Interactive Pill Badges in Foreground -->
+    <g transform="translate(600, 245)">
+      <!-- Pill 1 -->
+      <g transform="translate(-210, 0)">
+        <rect x="-75" y="-14" width="150" height="28" rx="14" fill="#1e293b" stroke="#06b6d4" stroke-width="1.5" />
+        <text x="0" y="4" font-family="sans-serif" font-size="12" font-weight="600" fill="#38bdf8">🏥 SaaS Platforms</text>
+      </g>
+      <!-- Pill 2 -->
+      <g transform="translate(0, 0)">
+        <rect x="-75" y="-14" width="150" height="28" rx="14" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5" />
+        <text x="0" y="4" font-family="sans-serif" font-size="12" font-weight="600" fill="#60a5fa">🔥 FHIR &amp; Open Source</text>
+      </g>
+      <!-- Pill 3 -->
+      <g transform="translate(210, 0)">
+        <rect x="-75" y="-14" width="150" height="28" rx="14" fill="#1e293b" stroke="#8b5cf6" stroke-width="1.5" />
+        <text x="0" y="4" font-family="sans-serif" font-size="12" font-weight="600" fill="#c084fc">🤖 AI Navigation</text>
+      </g>
+    </g>
+  </g>
+</svg>
