@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Care-Navigation-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Care-Navigation-Platform?style=flat-square&logo=github" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Care-Navigation-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Care-Navigation-Platform?style=flat-square&logo=github" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Care-Navigation-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Care-Navigation-Platform?style=flat-square&logo=github" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Care-Navigation-Platform/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -49,30 +49,30 @@ Below is a comparative matrix of commercial healthcare care navigation platforms
 
 Open-source implementations in care navigation focus primarily on **FHIR standards**, **provider directory indexing**, **symptom triage**, and **EHR integration frameworks**.
 
-Repositories below are sorted by **GitHub Star Count** (descending):
+Repositories below are sorted by **GitHub Stars_Count** (descending):
 
-- **[Fasten Health](https://github.com/fastenhealth/fasten-onprem)** [![GitHub stars](https://img.shields.io/github/stars/fastenhealth/fasten-onprem?style=social&color=white)](https://github.com/fastenhealth/fasten-onprem/stargazers) ⚡  
+- **[Fasten Health](https://github.com/fastenhealth/fasten-onprem)** [![GitHub_Stars](https://img.shields.io/github/stars/fastenhealth/fasten-onprem?style=social&color=white)](https://github.com/fastenhealth/fasten-onprem/stargazers) ⚡  
   Open-source, self-hosted personal health record (PHR) and care connector that aggregates patient medical data across healthcare systems via SMART on FHIR.
 
-- **[Medplum](https://github.com/medplum/medplum)** [![GitHub stars](https://img.shields.io/github/stars/medplum/medplum?style=social&color=white)](https://github.com/medplum/medplum/stargazers) 🩺  
+- **[Medplum](https://github.com/medplum/medplum)** [![GitHub_Stars](https://img.shields.io/github/stars/medplum/medplum?style=social&color=white)](https://github.com/medplum/medplum/stargazers) 🩺  
   Headless open-source EHR and FHIR-first developer platform for building care navigation workflows, patient portals, and clinical automation.
 
-- **[HAPI FHIR](https://github.com/hapifhir/hapi-fhir)** [![GitHub stars](https://img.shields.io/github/stars/hapifhir/hapi-fhir?style=social&color=white)](https://github.com/hapifhir/hapi-fhir/stargazers) 🔥  
+- **[HAPI FHIR](https://github.com/hapifhir/hapi-fhir)** [![GitHub_Stars](https://img.shields.io/github/stars/hapifhir/hapi-fhir?style=social&color=white)](https://github.com/hapifhir/hapi-fhir/stargazers) 🔥  
   Industry standard open-source Java implementation of the HL7 FHIR specification for building provider directories and health data exchanges.
 
-- **[OpenMRS Core](https://github.com/openmrs/openmrs-core)** [![GitHub stars](https://img.shields.io/github/stars/openmrs/openmrs-core?style=social&color=white)](https://github.com/openmrs/openmrs-core/stargazers) 🏥  
+- **[OpenMRS Core](https://github.com/openmrs/openmrs-core)** [![GitHub_Stars](https://img.shields.io/github/stars/openmrs/openmrs-core?style=social&color=white)](https://github.com/openmrs/openmrs-core/stargazers) 🏥  
   Modular open-source enterprise medical record system software designed for clinic-level navigation, care pathways, and referral management.
 
-- **[Microsoft FHIR Server](https://github.com/microsoft/fhir-server)** [![GitHub stars](https://img.shields.io/github/stars/microsoft/fhir-server?style=social&color=white)](https://github.com/microsoft/fhir-server/stargazers) 💻  
+- **[Microsoft FHIR Server](https://github.com/microsoft/fhir-server)** [![GitHub_Stars](https://img.shields.io/github/stars/microsoft/fhir-server?style=social&color=white)](https://github.com/microsoft/fhir-server/stargazers) 💻  
   Open-source .NET implementation of the FHIR standard, optimized for cloud-native provider directory search and patient data pipelines.
 
-- **[Google FHIR SDK](https://github.com/google/fhir)** [![GitHub stars](https://img.shields.io/github/stars/google/fhir?style=social&color=white)](https://github.com/google/fhir/stargazers) 🔍  
+- **[Google FHIR SDK](https://github.com/google/fhir)** [![GitHub_Stars](https://img.shields.io/github/stars/google/fhir?style=social&color=white)](https://github.com/google/fhir/stargazers) 🔍  
   Open-source C++ and Java libraries for parsing, validating, and building FHIR resources for care management and clinical triage prototypes.
 
-- **[LinuxForHealth FHIR Server](https://github.com/LinuxForHealth/FHIR)** [![GitHub stars](https://img.shields.io/github/stars/LinuxForHealth/FHIR?style=social&color=white)](https://github.com/LinuxForHealth/FHIR/stargazers) 🐧  
+- **[LinuxForHealth FHIR Server](https://github.com/LinuxForHealth/FHIR)** [![GitHub_Stars](https://img.shields.io/github/stars/LinuxForHealth/FHIR?style=social&color=white)](https://github.com/LinuxForHealth/FHIR/stargazers) 🐧  
   Modular, high-performance open-source Java FHIR server designed for enterprise data interoperability and health information exchange.
 
-- **[CMS National Provider Directory (NPD)](https://github.com/CMS-Enterprise/npd)** [![GitHub stars](https://img.shields.io/github/stars/CMS-Enterprise/npd?style=social&color=white)](https://github.com/CMS-Enterprise/npd/stargazers) 🏛️  
+- **[CMS National Provider Directory (NPD)](https://github.com/CMS-Enterprise/npd)** [![GitHub_Stars](https://img.shields.io/github/stars/CMS-Enterprise/npd?style=social&color=white)](https://github.com/CMS-Enterprise/npd/stargazers) 🏛️  
   Open-source prototype repository by CMS Enterprise for modern provider directory management and NPPES data ingestion pipelines.
 
 ---
